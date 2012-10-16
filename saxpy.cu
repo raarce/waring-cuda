@@ -1,3 +1,8 @@
+// CUDA programming example
+// A program that computes Y = A*X + Y where X and Y are vectors
+// of real numbers and A is a scalar real number.
+// Inspired by the Dan Ernst, Brandon Holt CUDA Programming Model talk
+
 #include "book.h"
 
 __global__ void saxpy_cuda(int n, float a, float *x, float *y) {
