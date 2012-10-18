@@ -1,2 +1,2 @@
-SAXPY example in CUDA
+Waring example in CUDA
 ===========

@@ -1,7 +1,7 @@
-all:  saxpy
+all:  waring
 
-saxpy: saxpy.cu
-	nvcc -o saxpy saxpy.cu
+waring: waring.cu
+	nvcc -o waring waring.cu
 
 clean: 
-	rm -Rf saxpy
+	rm -Rf waring 
